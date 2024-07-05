@@ -27,3 +27,83 @@ body {
     justify-content: center;
     border: 2px dashed black;
 }
+
+.main-banner {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 40px;
+}
+
+
+.main-banner div {
+    background-color: violet;
+    width: 50%;
+    height: 100%;
+    border: 2px dashed black;
+
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.content-row div {
+    height: 450px;
+    border: 2px dashed black;
+}
+
+.content-row div:first-child {
+    background-color: deepskyblue;
+    width: 60%;
+}
+
+.content-row div:last-child {
+    background-color: lightpink;
+    width: 40%;
+}
+
+.gray-background {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.large-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: lightgrey;
+    padding: 30px;
+
+}
+
+.large-content div {
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    border: 2px dashed black;
+}
+
+.set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: lightgrey;
+    padding: 30px;
+    background-color: rgba(27, 24, 20, 0.692);
+}
+
+.set div {
+    background-color: skyblue;
+    width: 50%;
+    height: 100%;
+    border: 2px dashed black;
+
+}
