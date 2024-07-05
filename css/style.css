@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header .logo,
+.header .login {
+    background-color: orange;
+    padding: 3px;
+    border: 2px dashed black;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    background-color: orange;
+    padding: 3px;
+    flex-grow: 1;
+    justify-content: center;
+    border: 2px dashed black;
+}
+
+.main-banner {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 40px;
+}
+
+
+.main-banner div {
+    background-color: violet;
+    width: 50%;
+    height: 100%;
+    border: 2px dashed black;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.content-row div {
+    height: 450px;
+    border: 2px dashed black;
+}
+
+.content-row div:first-child {
+    background-color: deepskyblue;
+    width: 60%;
+}
+
+.content-row div:last-child {
+    background-color: lightpink;
+    width: 40%;
+}
+
+.gray-background {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+}
+}
+
+.large-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: green;
+    border: 2px dashed black;
+    /* Add the dashed border */
+}
