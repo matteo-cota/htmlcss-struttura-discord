@@ -94,16 +94,59 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 430px;
     background-color: lightgrey;
-    padding: 30px;
-    background-color: rgba(27, 24, 20, 0.692);
+    padding: 56px;
+    background-color: rgba(27, 24, 20, 0.863);
 }
 
 .set div {
-    background-color: skyblue;
+    background-color: rgb(109, 179, 245);
     width: 50%;
-    height: 100%;
-    border: 2px dashed black;
+    height: 110%;
+    border: 2px dashed rgb(255, 255, 255);
+}
 
+#section {
+    background-color: rgb(252, 122, 144);
+    width: 90%;
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+#spazio {
+    padding: 1px;
+}
+
+.footer {
+    background-color: rgba(27, 24, 20, 0.863);
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    background-color: #7FFFDA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    padding: 10px;
+}
+
+.footer-logo,
+.footer-button {
+    background-color: #FFB6C1;
+    padding: 10px;
+    border: 1px dashed red;
+}
+
+.footer-logo {
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.footer-button {
+    margin-right: 10px;
+    padding: 2px;
 }
